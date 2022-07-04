@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> JavaScript 2D Game_Level1</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="jump (1).png" />
+</head>
+
+<body onkeyup="KeyCheck(event);" onload="createBox();" class="body">
+
+    <div id="mainBox" class="mainBox" >
+
+        <div class="score2"><button class="b1">Score</button></div>
+
+        <div class="theme"><button onclick="theme();"class="b3">theme </button></div>
+
+       <div class="level"><button onclick="Level();"class="b2">Level +</button></div>
+
+        <div id="score" class="score">0</div>
+
+        
+        <img id="boy" src="Run (1).png" class="boy"/>
+    
+    </div>
+
+
+    <div id="endGame" class="endGame">
+        <div>Game Over</div>
+        <div>Your Score</div>
+        <div id="endScore">0</div>
+        <button onclick="newGame();" class="newGame">New Game</button>
+        <img class="img"src="Winner-gif-1.gif"/>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

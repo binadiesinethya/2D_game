@@ -1,0 +1,183 @@
+.mainBox{
+    width: 100%;
+    height: 680px;
+    background-image: url("background.png");
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.body{
+    margin: 0px;
+}
+
+.boy{
+    position: absolute;
+    height: 200px;
+    margin-top: 350px;
+}
+
+
+.box{
+    width: 35px;
+    height: 100px;
+    background-image: url("flame.gif");
+    position: absolute;
+    margin-top: 480px;
+    background-size: 50px 100px;
+}
+
+.score{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-left: 150px;
+    position: absolute;
+    font-family: "Arial";
+    font-weight: bold;
+   
+}
+
+.score2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+    font-family: "Arial";
+}
+
+.endGame{
+    width: 1536px;
+    height: 683px;
+    background-image: url("background3.png");
+    position: absolute;
+    margin-top: -680px;
+    font-family: "Arial";
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    
+}
+
+.newGame{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(237, 46, 170);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: "Arial";
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.newGame:hover{
+    background-color: rgb(255, 0, 106); 
+    cursor: pointer;
+}
+
+.img{
+    width: 300px;
+    margin-top: 70px;
+    margin-left: -34px;
+}
+
+
+.icon{
+    width:16px;
+}
+
+.time{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 1200px;
+    position: absolute;
+    font-family: "Arial"; 
+}
+
+.b1{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(167, 163, 163);
+    border-style: solid;
+    border-radius: 5px;
+}
+.level{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+    font-family: "Arial";
+}
+.level2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-left: 150px;
+    position: absolute;
+    font-family: "Arial";
+    font-weight: bold;
+   
+}
+
+.b2{
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: rgb(167, 163, 163);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.b2:hover{
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+
+.theme{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: absolute;
+    font-family: "Arial";
+}
+.theme2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-left: 150px;
+    position: absolute;
+    font-family: "Arial";
+    font-weight: bold;
+   
+}
+
+.b3{
+    width: 100px;
+    margin-top: 70px;
+    margin-left: 20px;
+    background-color: rgb(167, 163, 163);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.b3:hover{
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+
+
+
+
